@@ -3,7 +3,7 @@ def test():
     summ = 1
     for i in range(1, 50+1):
         if i % n == 0:
-            print(i, end=' ')
+            print('числа ряда',i, end=' ')
             summ += i
     print('\n\nСумма равна:', summ)
 
